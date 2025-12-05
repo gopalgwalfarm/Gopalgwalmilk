@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gopal Gwal Milk - Shudh Desi Doodh</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f8f9fa; }
+    header { background: #d4a017; color: white; padding: 20px; text-align: center; }
+    nav { background: #ffffff; padding: 10px 20px; display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}    
+    nav a { text-decoration: none; color: #d4a017; font-weight: bold; }
+    .hero { padding: 60px 20px; background-size: cover; background-position: center; color: white; text-align: center; background: #d4a017; }
+    .hero h1 { font-size: 40px; margin: 0; text-shadow: 0 2px 4px rgba(0,0,0,0.6);}    
+    .section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    .card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+    .card h3 { margin-top: 0; color: #d4a017; }
+    .footer { background: #d4a017; color: white; padding: 20px; text-align: center; margin-top: 40px; }
+    button { background: #d4a017; color: white; border: none; padding: 12px 20px; border-radius: 8px; font-size: 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Gopal Gwal Logo" style="width:140px; display:block; margin:auto;">
+    <h1>Gopal Gwal – Shudh Desi Doodh</h1>
+    <p>Chhibramau aur aas-paas ke shetro me sabse shudh aur taaza doodh ki supply</p>
+  </header>
+
+  <nav>
+    <a href="#milk">Milk Rates</a>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>100% Pure • Fresh • Farm Direct Milk</h1>
+    <p>Aapke parivaar ki sehat, hamari zimmedari</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="section" id="milk">
+    <h2 style="text-align:center; color:#d4a017;">Milk Rates</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>A2 Desi Cow Milk</h3>
+        <p style="font-size: 22px; font-weight: bold;">₹60 / Liter</p>
+        <p>Direct farm se fresh supply</p>
+      </div>
+      <div class="card">
+        <h3>Buffalo (Bhaisa) Milk</h3>
+        <p style="font-size: 22px; font-weight: bold;">₹73 / Liter</p>
+        <p>High Fat & Creamy Quality</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="services">
+    <h2 style="text-align:center; color:#d4a017;">Our Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Daily Home Delivery</h3>
+        <p>Har subah fresh doodh aapke ghar</p>
+      </div>
+      <div class="card">
+        <h3>Bulk Order Supply</h3>
+        <p>Shadi, Hotel, Restaurant ke liye</p>
+      </div>
+      <div class="card">
+        <h3>Fully Hygienic Farm</h3>
+        <p>Modern milking system • Full cleanliness</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2 style="text-align:center; color:#d4a017;">About Us</h2>
+    <p style="font-size:18px; line-height:28px; text-align:center;">
+      Gopal Gwal Milk ek trusted dairy brand hai jo Chhibramau me shudh aur taaza doodh ki supply karta hai.
+      Hamare farm me hygiene ka special dhyan rakha jata hai aur doodh bilkul adulteration-free hota hai.
+    </p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2 style="text-align:center; color:#d4a017;">Contact Us</h2>
+    <p style="text-align:center; font-size:18px;">
+      📞 Phone: +91 8005316911<br>
+      📍 Lokpur, Chhibramau, Kannauj, Uttar Pradesh<br>
+      📱 Contact: +91 6307721384<br>
+      📩 Instagram: @gopalgwal_milk
+    </p>
+  </div>
+
+  <div class="footer">
+    © 2025 Gopal Gwal Milk • All Rights Reserved
+  </div>
+</body>
+</html>
